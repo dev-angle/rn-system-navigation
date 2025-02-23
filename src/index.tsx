@@ -1,5 +1,9 @@
 import RnSystemNavigation from './NativeRnSystemNavigation';
 
-export function multiply(a: number, b: number): number {
-  return RnSystemNavigation.multiply(a, b);
+export function hideSystemNavigation(): boolean {
+  return RnSystemNavigation.hideSystemNavigation();
+}
+
+export function showSystemNavigation(): boolean {
+  return RnSystemNavigation.showSystemNavigation();
 }
