@@ -1,4 +1,4 @@
-# rn-system-navigation
+# rn-system-navigation [Only for Android]
 
 It is a React Native package
 
@@ -10,15 +10,28 @@ npm install rn-system-navigation
 
 ## Usage
 
-
 ```js
-import { multiply } from 'rn-system-navigation';
+import {
+  hideSystemNavigation,
+  showSystemNavigation,
+} from 'rn-system-navigation';
 
 // ...
 
-const result = multiply(3, 7);
+const btnHidePress = () => {
+  const result = hideSystemNavigation();
+  // It will return a boolean value (true or false)
+};
+
+const btnShowPress = () => {
+  const result = showSystemNavigation();
+  // It will return a boolean value (true or false)
+};
 ```
 
+## For complete use
+
+See [example](./example/src/App.tsx) for complete tutorial on, how to use this library
 
 ## Contributing
 
@@ -31,3 +44,4 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+

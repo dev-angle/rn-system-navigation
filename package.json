@@ -1,6 +1,6 @@
 {
   "name": "rn-system-navigation",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "It is a React Native package",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
