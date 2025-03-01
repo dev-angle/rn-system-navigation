@@ -8,6 +8,10 @@ It is a React Native package
 npm install rn-system-navigation
 ```
 
+```sh
+yarn add rn-system-navigation
+```
+
 ## Usage
 
 ```js
